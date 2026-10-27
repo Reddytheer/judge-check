@@ -109,7 +109,7 @@ judge_check/probes.py         attacks on the judge
 judge_check/metrics.py        kappa, false passes, the decision rule
 judge_check/evaluate.py       the pipeline
 judge_check/report.py         one-page HTML report
-examples/draft-baseline/      example run record and report
+examples/draft-baseline/      example report (offline run)
 ```
 
 ## The labeled set
