@@ -8,9 +8,7 @@ The demo is AML alert triage at a fictional bank: an agent reads a transaction-m
 
 ## What it produces
 
-A one-page report per run ([example](examples/draft-baseline/report.html)), plus a versioned run record (`run.json`).
-
-![Example judge-check report](docs/report.png)
+A one-page report per run ([example](examples/draft-baseline/report.html)), plus a versioned run record (`run.json`) with the grader, prompt hash, rubric and dataset fingerprints.
 
 | ID | Criterion | Severity | Decision on the example run | Why |
 | --- | --- | --- | --- | --- |
