@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "judge-check"
+version = "0.1.0"
+description = "Decide which rubric criteria an LLM judge can grade on its own, with evidence a model risk team can sign."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["pyyaml>=6"]
+
+[project.optional-dependencies]
+judge = ["anthropic>=0.40"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+judge-check = "judge_check.cli:main"
+
+[tool.setuptools]
+packages = ["judge_check"]
