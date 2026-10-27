@@ -10,6 +10,8 @@ The demo is AML alert triage at a fictional bank: an agent reads a transaction-m
 
 A one-page report per run ([example](examples/draft-baseline/report.html)), plus a versioned run record (`run.json`) with the grader, prompt hash, rubric and dataset fingerprints.
 
+![Example judge-check report](docs/report.png)
+
 | ID | Criterion | Severity | Decision on the example run | Why |
 | --- | --- | --- | --- | --- |
 | C1 | Disposition correct | Critical | Automate | meets every bar |
@@ -109,7 +111,7 @@ judge_check/probes.py         attacks on the judge
 judge_check/metrics.py        kappa, false passes, the decision rule
 judge_check/evaluate.py       the pipeline
 judge_check/report.py         one-page HTML report
-examples/draft-baseline/      example report (offline run)
+examples/draft-baseline/      example run record and report (offline run)
 ```
 
 ## The labeled set
